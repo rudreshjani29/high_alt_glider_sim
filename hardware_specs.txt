@@ -1,0 +1,61 @@
+High-Altitude Solar-Powered Glider - Hardware Specifications
+============================================================
+
+Airframe:
+---------
+- Material: Carbon fiber composite
+- Wingspan: 4.5 meters
+- Weight (dry): ~12 kg
+- Max payload: 2 kg
+- Glide Ratio: 22:1
+
+Propulsion:
+-----------
+- Propeller: Folding electric pusher propeller
+- Motor: 750W brushless DC motor
+- ESC: 40A programmable ESC with regenerative braking
+
+Power System:
+-------------
+- Solar Panels:
+    - Type: Monocrystalline high-efficiency (22-24%)
+    - Area: 1.8 m² (integrated on wings)
+    - Max Power Output: ~300W under full sunlight
+- Battery:
+    - Type: Lithium-Polymer (Li-Po)
+    - Capacity: 6S 22.2V, 16000mAh
+    - Energy: ~355 Wh
+    - Operating Temp: -20°C to +60°C
+    - Features: Thermal insulation & heating for high-altitude operation
+
+Avionics:
+---------
+- Flight Controller: Pixhawk 6X with ArduPilot firmware
+- GPS: Multi-band GNSS (u-blox F9P)
+- IMU: Triple redundant with magnetometer
+- Barometer: Dual redundant for altitude estimation
+- Telemetry: 915 MHz long-range radio (up to 20 km)
+
+Sensors (for atmospheric data):
+-------------------------------
+- Temperature sensor: RTD or digital (±0.1°C accuracy)
+- Humidity sensor: Capacitive digital (±2% RH)
+- Pressure sensor: Barometric, 10-1100 hPa
+- Particulate matter: Optional laser scattering PM2.5 sensor
+- Ozone/CO2/NOx: Optional electrochemical or NDIR sensors
+
+Control & Communications:
+--------------------------
+- Autopilot Modes: Auto waypoint, loiter, RTL, glide-only
+- Satellite Uplink (optional): Iridium Short Burst Data
+- Failsafe: Return-to-launch, glide-to-sunlight zone
+
+Others:
+-------
+- Launch Method: Bungee or manual hand launch
+- Recovery: Autonomous landing or parachute recovery (optional)
+- Estimated Flight Time: Continuous during sunlight with energy storage for 8-10 hours night operation
+
+Note:
+-----
+These specifications are hypothetical and optimized for simulation and conceptual design.
